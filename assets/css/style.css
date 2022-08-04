@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/*HEADER*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -50,6 +51,7 @@ p {
     font-size: 16px;
 }
 
+/*JUMBOTRON*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,12 +60,15 @@ p {
     background-size: cover;
     background-position: center;
 }
-.content {
+
+/* MAIN CONTENT */
+.main-content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-.seo-rep-mark {
+
+.main-subsec {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -71,25 +76,18 @@ p {
     background-color: #0072bb;
     color: #ffffff;  
 }
-.seo-rep-mark img {
+.main-subsec img {
     max-height: 200px;
 }
 
-.seo-rep-mark h2 {
+.main-subsec h2 {
     margin-bottom: 20px;
     font-size: 36px; 
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
 
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 
+/* BENEFIT CONTENT */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -116,6 +114,7 @@ p {
     max-width: 150px;
 }
 
+/*FOOTER*/
 .footer {
     padding: 30px;
     clear: both;
@@ -125,4 +124,15 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+/* UTILITY STYLING */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
